@@ -1,0 +1,5 @@
+[
+  "tests/test_awesome_ml.py::test_fit_classes",
+  "tests/test_awesome_ml.py::test_fit_majority_class",
+  "tests/test_awesome_ml.py::test_predict"
+]

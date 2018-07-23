@@ -1,0 +1,13 @@
+name: workshop
+dependencies:
+  - python=3.6
+  - conda-build
+  - pytest
+  - jupyter
+  - pandas
+  - matplotlib
+  - numpy
+  - scikit-learn
+  - pip
+  - pip:
+    - watermark

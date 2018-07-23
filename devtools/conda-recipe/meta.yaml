@@ -1,0 +1,29 @@
+package:
+  name: awesome_ml
+  version: 0.0.1
+
+source:
+  path: ../../
+
+
+requirements:
+  host:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - pytest
+    - numpy
+    - pandas
+    - scikit-learn
+
+test:
+  imports:
+    - awesome_ml
+
+about:
+  home: https://github.com/kamran_haider/AwesomeML
+  license: MIT
+  summary: Python package to demonstrate packaging
+
